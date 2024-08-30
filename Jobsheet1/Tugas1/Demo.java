@@ -7,6 +7,8 @@ public class Demo {
         Baju b1 = new Baju("Merah", "S", "Linen", false, false);
         BajuKemeja bs1 = new BajuKemeja("Biru", "S", "Katun", true, false, false);
 
+        BajuJaket bs2 = new BajuJaket("kuning", "XL", "Micro Plain", true, false, true);
+
         lb1.tambahTingkatCahaya(10);
         lb1.setWarnaCahaya("Biru");
         lb1.showInfo();
@@ -21,8 +23,12 @@ public class Demo {
         b1.dipakai();
         b1.showInfo();
         System.out.println();
+        
 
         bs1.showInfo();
+        System.out.println();
+        
+        bs2.showInfo();
     }
 }
 
