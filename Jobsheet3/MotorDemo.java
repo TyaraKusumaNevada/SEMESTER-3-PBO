@@ -19,6 +19,6 @@ public class MotorDemo {
         motor.printStatus();
 
         motor.matikanMesin();
-        motor.printStatus()
+        motor.printStatus();
     }
 }
