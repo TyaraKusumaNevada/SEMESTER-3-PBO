@@ -1,5 +1,6 @@
 package Jobsheet3;
 
+
 public class TestKoperasi {
     public static void main(String[] args) {
         // Menggunakan class AnggotaTugas
@@ -21,7 +22,8 @@ public class TestKoperasi {
         System.out.println("Jumlah pinjaman saat ini: " + donny.getJumlahPinjaman());
 
         System.out.println("\nMembayar angsuran 3.000.000");
-        donny.angsur(3000000);
+        donny.angsur(30000);
         System.out.println("Jumlah pinjaman saat ini: " + donny.getJumlahPinjaman());
     }
 }
+
