@@ -1,6 +1,5 @@
 package Praktikumjs9;
 
-// Kelas utama untuk menguji dynamic method dispatch
 public class Main2 {
     public static void main(String[] args) {
         Manusia manusia;  // Deklarasi referensi superclass
